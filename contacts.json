@@ -1,0 +1,549 @@
+[
+  {
+    "domain": "1comptabilite.fr",
+    "emails": []
+  },
+  {
+    "domain": "24presse.com",
+    "emails": [
+      "contact@24presse.com",
+      "admin@24presse.com"
+    ]
+  },
+  {
+    "domain": "appvizer.fr",
+    "emails": [
+      "service@appvizer.com"
+    ]
+  },
+  {
+    "domain": "aspekt.fr",
+    "emails": [
+      "hello@aspekt.fr"
+    ]
+  },
+  {
+    "domain": "babdp.org",
+    "emails": []
+  },
+  {
+    "domain": "baticopro.com",
+    "emails": []
+  },
+  {
+    "domain": "beaboss.fr",
+    "emails": []
+  },
+  {
+    "domain": "bfmtv.com",
+    "emails": [
+      "accueilcampus.nextradiotv@rmcbfm.com"
+    ]
+  },
+  {
+    "domain": "bourseinside.fr",
+    "emails": []
+  },
+  {
+    "domain": "businessornot.fr",
+    "emails": []
+  },
+  {
+    "domain": "c2ic.net",
+    "emails": []
+  },
+  {
+    "domain": "cartonrecup.com",
+    "emails": []
+  },
+  {
+    "domain": "cesdefrance.fr",
+    "emails": [
+      "netlinking@agence-kheper.fr"
+    ]
+  },
+  {
+    "domain": "charlestech.fr",
+    "emails": [
+      "charles.g-p@orange.fr",
+      "redaction@charlestech.fr"
+    ]
+  },
+  {
+    "domain": "codeas.net",
+    "emails": []
+  },
+  {
+    "domain": "compta-facile.com",
+    "emails": [
+      "content@compta-facile.com"
+    ]
+  },
+  {
+    "domain": "compta-online.com",
+    "emails": [
+      "contact@comptaonline.com",
+      "webmaster@comptaonline.com",
+      "forum@compta-online.com"
+    ]
+  },
+  {
+    "domain": "comptareal.fr",
+    "emails": [
+      "support@belgic.eu"
+    ]
+  },
+  {
+    "domain": "compte-pro.com",
+    "emails": [
+      "00019contact@leadbiz.fr",
+      "contact@leadbiz.fr"
+    ]
+  },
+  {
+    "domain": "connectbanque.com",
+    "emails": [
+      "info@connectbanque.com"
+    ]
+  },
+  {
+    "domain": "crowdlending.fr",
+    "emails": []
+  },
+  {
+    "domain": "cyfernet.org",
+    "emails": [
+      "john@doe.com"
+    ]
+  },
+  {
+    "domain": "decision-achats.fr",
+    "emails": []
+  },
+  {
+    "domain": "digitiz.fr",
+    "emails": [
+      "contact@digitiz.fr",
+      "u00a0contact@digitiz.fr"
+    ]
+  },
+  {
+    "domain": "ecostart.fr",
+    "emails": []
+  },
+  {
+    "domain": "entreprise-innov.fr",
+    "emails": []
+  },
+  {
+    "domain": "europages.fr",
+    "emails": [
+      "f0618d2a0eb19de4c13e37965983b468@o301285.ingest.us.sentry.io"
+    ]
+  },
+  {
+    "domain": "europe-etiquettes.fr",
+    "emails": [
+      "contact@europe-etiquettes.fr"
+    ]
+  },
+  {
+    "domain": "expertbanque.fr",
+    "emails": [
+      "sylvainrauxpro@outlook.com",
+      "contact@expertbanque.fr"
+    ]
+  },
+  {
+    "domain": "externalisation-comptabilite.com",
+    "emails": []
+  },
+  {
+    "domain": "finance-heros.fr",
+    "emails": []
+  },
+  {
+    "domain": "fr.bepub.com",
+    "emails": []
+  },
+  {
+    "domain": "francetransactions.com",
+    "emails": [
+      "redaction@francetransactions.com"
+    ]
+  },
+  {
+    "domain": "guidedelabanque.fr",
+    "emails": []
+  },
+  {
+    "domain": "habitatpresto.com",
+    "emails": []
+  },
+  {
+    "domain": "hdfever.fr",
+    "emails": [
+      "john@doe.com",
+      "votre.email@exemple.fr"
+    ]
+  },
+  {
+    "domain": "ideal-investisseur.fr",
+    "emails": [
+      "commercial@ideal-investisseur.fr",
+      "prenom@email.com"
+    ]
+  },
+  {
+    "domain": "infonet.fr",
+    "emails": [
+      "jean-michel.werthe@airbus.com",
+      "contact@dior.com",
+      "group.contact@vinci.com",
+      "contact@stellantis.com",
+      "contact@renault.com",
+      "contact@infonet.fr",
+      "contact@axa.fr",
+      "renaultgroup.media@renault.com",
+      "contact@edf.fr",
+      "contact@group.bnpparibas.com",
+      "direction_communication_groupe@carrefour.com"
+    ]
+  },
+  {
+    "domain": "infos-byz.com",
+    "emails": [
+      "contact@mediweb-byz.com"
+    ]
+  },
+  {
+    "domain": "itsocial.fr",
+    "emails": []
+  },
+  {
+    "domain": "lafabriquedunet.fr",
+    "emails": [
+      "votre@email.com",
+      "vous@entreprise.com"
+    ]
+  },
+  {
+    "domain": "latribune.fr",
+    "emails": [
+      "jcoffe@latribune.fr",
+      "mgaunet@latribune.fr",
+      "u003ejsautes@latribune.fr",
+      "recrutements@latribune.fr",
+      "chelfgott@latribune.fr",
+      "u003egchami@latribune.fr",
+      "u003efjalbert@latribune.fr",
+      "oborscha@boconseil.net",
+      "aboesch@latribune.fr",
+      "u003ejhenquinbrant@latribune.fr",
+      "u003eahide@latribune.fr",
+      "u003echelfgott@latribune.fr",
+      "u003erecrutements@latribune.fr",
+      "lkiraly@latribune.fr",
+      "fjalbert@latribune.fr",
+      "u003emgaunet@latribune.fr",
+      "u003ejcoffe@latribune.fr",
+      "jsautes@latribune.fr",
+      "u003eoborscha@boconseil.net",
+      "kjung@latribune.fr",
+      "u003eabo@latribune.fr",
+      "u003engaumont@latribune.fr",
+      "pnom@latribune.fr",
+      "u003elkiraly@latribune.fr",
+      "csili@latribune.fr",
+      "ngaumont@latribune.fr",
+      "u003enabella@latribune.fr",
+      "ahide@latribune.fr",
+      "nabella@latribune.fr",
+      "nsaidahmed@latribune.fr",
+      "v.lubot@cma-media.fr",
+      "u003ensaidahmed@latribune.fr",
+      "u003ecsili@latribune.fr",
+      "u003evmanoujian@latribune.fr",
+      "u003ev.lubot@cma-media.fr",
+      "u003ekjung@latribune.fr",
+      "jhenquinbrant@latribune.fr",
+      "gchami@latribune.fr",
+      "vmanoujian@latribune.fr",
+      "abo@latribune.fr",
+      "u003eaboesch@latribune.fr"
+    ]
+  },
+  {
+    "domain": "lejournaldelafinance.com",
+    "emails": [
+      "contact@lejournaldelafinance.com",
+      "abuse@planethoster.fr",
+      "lucasmartinparis3@gmail.com",
+      "abuse@o2switch.fr"
+    ]
+  },
+  {
+    "domain": "lemonde.fr",
+    "emails": []
+  },
+  {
+    "domain": "leparisien.fr",
+    "emails": [
+      "rkorda@leparisien.fr",
+      "pconradsson@leparisien.fr",
+      "etudiant@leparisien.fr",
+      "ecollet@leparisien.fr",
+      "fgagnepain@leparisien.fr",
+      "ariou@leparisien.fr",
+      "asdamecour@leparisien.fr",
+      "rfolgoas@leparisien.fr",
+      "mlegrand@leparisien.fr",
+      "ldescamps@leparisien.fr",
+      "bderveaux@leparisien.fr",
+      "contact@culturefrance.fr",
+      "blallement@leparisien.fr",
+      "pabran@leparisien.fr",
+      "etorgemen@leparisien.fr",
+      "njacquard@leparisien.fr",
+      "cbauduin@leparisien.fr",
+      "bquarez@leparisien.fr",
+      "obureau@leparisien.fr",
+      "bdaragon@leparisien.fr",
+      "mpoussel@leparisien.fr",
+      "contact@fondationlouisvuitton.fr",
+      "fmouchon@leparisien.fr",
+      "cpiquet@leparisien.fr",
+      "cbrigaudeau@leparisien.fr",
+      "eguerini@leparisien.fr",
+      "nberrod@leparisien.fr",
+      "jbontinck@leparisien.fr",
+      "alaindoff@gmail.com",
+      "vhunsinger@leparisien.fr",
+      "abisson@leparisien.fr",
+      "dlicata@leparisien.fr",
+      "snieto@leparisien.fr",
+      "dcourtine@leparisien.fr",
+      "gplouviez@leparisien.fr",
+      "slefevre@leparisien.fr",
+      "ebureau@leparisien.fr",
+      "vmongaillard@leparisien.fr",
+      "floisy@leparisien.fr",
+      "m.dubroca@mac-guffin.net",
+      "cballe@leparisien.fr",
+      "david.guilbault@penestin.fr",
+      "lparny@leparisien.fr",
+      "contact@theatredeluchronie.fr",
+      "ocorsan@leparisien.fr",
+      "ejulien@leparisien.fr"
+    ]
+  },
+  {
+    "domain": "leparticulier.lefigaro.fr",
+    "emails": []
+  },
+  {
+    "domain": "lepoint.fr",
+    "emails": [
+      "vforson@lepoint.fr",
+      "gkumcu@lepoint.fr",
+      "psastre@lepoint.fr",
+      "eberretta@lepoint.fr",
+      "oubertalli@lepoint.fr",
+      "flefloch@ext.lepoint.fr",
+      "ydjender@ext.lepoint.fr",
+      "jfferro@lepoint.fr",
+      "bparrino@lepoint.fr",
+      "nlamoureux@lepoint.fr",
+      "rgubert@lepoint.fr",
+      "gwoessner@lepoint.fr",
+      "bjourdain@lepoint.fr",
+      "ohertel@ext.lepoint.fr",
+      "jcordelier@lepoint.fr",
+      "tvigoureux@lepoint.fr",
+      "nbastuck@lepoint.fr",
+      "cdurand@lepoint.fr",
+      "adupuits@ext.lepoint.fr",
+      "caubry@lepoint.fr",
+      "fmiguet@lepoint.fr"
+    ]
+  },
+  {
+    "domain": "leptidigital.fr",
+    "emails": []
+  },
+  {
+    "domain": "lessentieldeleco.fr",
+    "emails": [
+      "direction@lessentieldeleco.fr",
+      "redaction@lessentieldeleco.fr",
+      "tribunes@lessentieldeleco.fr",
+      "contact@lessentieldeleco.fr"
+    ]
+  },
+  {
+    "domain": "logicielfrance.com",
+    "emails": [
+      "logiciel@logicielfrance.com"
+    ]
+  },
+  {
+    "domain": "maddyness.com",
+    "emails": [
+      "adresse@mail.com",
+      "bruce@wayne.com"
+    ]
+  },
+  {
+    "domain": "meilleurcomptable.fr",
+    "emails": [
+      "contact@meilleurcomptable.fr"
+    ]
+  },
+  {
+    "domain": "mon-tote-bag.fr",
+    "emails": [
+      "service-client@mon-tote-bag.fr"
+    ]
+  },
+  {
+    "domain": "mondetech.fr",
+    "emails": []
+  },
+  {
+    "domain": "moneyvox.fr",
+    "emails": []
+  },
+  {
+    "domain": "moovement.fr",
+    "emails": []
+  },
+  {
+    "domain": "net67.fr",
+    "emails": []
+  },
+  {
+    "domain": "netpublic.fr",
+    "emails": [
+      "jean.dupont@gmail.com",
+      "contact@netpublic.fr"
+    ]
+  },
+  {
+    "domain": "nos-comparateurs.fr",
+    "emails": [
+      "contact@nos-comparateurs.fr"
+    ]
+  },
+  {
+    "domain": "outils-accessoires.fr",
+    "emails": []
+  },
+  {
+    "domain": "panorabanques.com",
+    "emails": []
+  },
+  {
+    "domain": "pappers.fr",
+    "emails": []
+  },
+  {
+    "domain": "pardotconsulting.fr",
+    "emails": [
+      "guillaume.nadal@gmail.com"
+    ]
+  },
+  {
+    "domain": "perspectives-conseils.com",
+    "emails": [
+      "contact@perspectivesconseils.com",
+      "contact@slati.fr",
+      "contact@perspectives-conseils.com"
+    ]
+  },
+  {
+    "domain": "perspectives-retraite.com",
+    "emails": [
+      "contact@slati.fr",
+      "contact@perspectives-retraite.com"
+    ]
+  },
+  {
+    "domain": "pharrell.fr",
+    "emails": []
+  },
+  {
+    "domain": "plateya.fr",
+    "emails": [
+      "damien@plateya.fr",
+      "contact@plateya.fr",
+      "damien@secretaire-independante.online"
+    ]
+  },
+  {
+    "domain": "pme-web.com",
+    "emails": [
+      "contact@pme-web.com"
+    ]
+  },
+  {
+    "domain": "presse-citron.net",
+    "emails": [
+      "contact@keleops.ch",
+      "votre@adresse.email"
+    ]
+  },
+  {
+    "domain": "presticer.fr",
+    "emails": [
+      "contact@presticer.fr",
+      "contact@oli-media.com",
+      "domains@hostinger.com"
+    ]
+  },
+  {
+    "domain": "reussir-dscg.com",
+    "emails": []
+  },
+  {
+    "domain": "revistaperil.com",
+    "emails": [
+      "annuaire.referencement.web@gmail.com"
+    ]
+  },
+  {
+    "domain": "societe.tech",
+    "emails": []
+  },
+  {
+    "domain": "startups-nation.fr",
+    "emails": [
+      "contact@startups-nation.fr",
+      "contact@agencethrive.fr"
+    ]
+  },
+  {
+    "domain": "techno-finance.fr",
+    "emails": [
+      "agence.quitrouve@gmail.com"
+    ]
+  },
+  {
+    "domain": "tool-advisor.fr",
+    "emails": [
+      "martin.dupont@logiciel.com",
+      "hello@tool-advisor.fr"
+    ]
+  },
+  {
+    "domain": "uris-rhone-alpes.org",
+    "emails": [
+      "contact@uris-rhone-alpes.org"
+    ]
+  },
+  {
+    "domain": "village-justice.com",
+    "emails": [
+      "dev2@village-justice.com"
+    ]
+  }
+]
