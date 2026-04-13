@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body { font-family: 'Inter', system-ui, sans-serif; }
-        .table-scroll { max-height: 70vh; overflow-y: auto; }
+        .table-scroll { max-height: 70vh; overflow-y: auto; overflow-x: auto; }
         .table-scroll thead { position: sticky; top: 0; z-index: 10; }
         th.sortable { cursor: pointer; user-select: none; }
         th.sortable:hover { color: #ED621B; }
@@ -73,13 +73,13 @@
                 <table class="w-full"><thead class="bg-gray-50"><tr>
                     <th class="py-3 px-2 w-10"></th>
                     <th class="text-left py-3 px-4 text-xs font-semibold text-gray-500 uppercase">Domaine</th>
+                    <th class="text-left py-3 px-4 text-xs font-semibold text-gray-500 uppercase">Contact</th>
                     <th class="text-center py-3 px-4 text-xs font-semibold text-gray-500 uppercase sortable" data-sort="count" data-table="fid-achat">Citations <span class="arrow"></span></th>
                     <th class="text-center py-3 px-4 text-xs font-semibold text-gray-500 uppercase">Cité</th>
                     <th class="text-center py-3 px-4 text-xs font-semibold text-gray-500 uppercase sortable" data-sort="price" data-table="fid-achat">Prix <span class="arrow"></span></th>
                     <th class="text-center py-3 px-4 text-xs font-semibold text-gray-500 uppercase">Plateforme</th>
                     <th class="text-center py-3 px-4 text-xs font-semibold text-gray-500 uppercase sortable" data-sort="dr" data-table="fid-achat">DR <span class="arrow"></span></th>
                     <th class="text-left py-3 px-4 text-xs font-semibold text-gray-500 uppercase">URLs citées</th>
-                    <th class="text-left py-3 px-4 text-xs font-semibold text-gray-500 uppercase">Contact</th>
                 </tr></thead><tbody id="fid-achat-body"></tbody></table>
             </div>
             <div class="ml-7 mt-3 flex flex-col gap-1">
@@ -155,13 +155,13 @@
                 <table class="w-full"><thead class="bg-gray-50"><tr>
                     <th class="py-3 px-2 w-10"></th>
                     <th class="text-left py-3 px-4 text-xs font-semibold text-gray-500 uppercase">Domaine</th>
+                    <th class="text-left py-3 px-4 text-xs font-semibold text-gray-500 uppercase">Contact</th>
                     <th class="text-center py-3 px-4 text-xs font-semibold text-gray-500 uppercase sortable" data-sort="count" data-table="vp-achat">Citations <span class="arrow"></span></th>
                     <th class="text-center py-3 px-4 text-xs font-semibold text-gray-500 uppercase">Cité</th>
                     <th class="text-center py-3 px-4 text-xs font-semibold text-gray-500 uppercase sortable" data-sort="price" data-table="vp-achat">Prix <span class="arrow"></span></th>
                     <th class="text-center py-3 px-4 text-xs font-semibold text-gray-500 uppercase">Plateforme</th>
                     <th class="text-center py-3 px-4 text-xs font-semibold text-gray-500 uppercase sortable" data-sort="dr" data-table="vp-achat">DR <span class="arrow"></span></th>
                     <th class="text-left py-3 px-4 text-xs font-semibold text-gray-500 uppercase">URLs citées</th>
-                    <th class="text-left py-3 px-4 text-xs font-semibold text-gray-500 uppercase">Contact</th>
                 </tr></thead><tbody id="vp-achat-body"></tbody></table>
             </div>
             <div class="ml-7 mt-3 flex flex-col gap-1">
@@ -253,13 +253,13 @@
             return '<tr class="border-b border-gray-100 hover:bg-gray-50'+(checked?' bg-orange-50':'')+'">'
                 +'<td class="py-3 px-2 text-center"><input type="checkbox" '+checked+' onchange="toggleSelect(\''+site+'\',\''+s.domain+'\','+s.price+',\''+p+'\')" class="w-4 h-4 rounded accent-orange-500 cursor-pointer"></td>'
                 +'<td class="py-3 px-4 text-sm font-medium">'+s.domain+'</td>'
+                +'<td class="py-3 px-4 text-sm">'+(contactData[s.domain]?contactData[s.domain].map(e=>'<a href="mailto:'+e+'" class="block text-xs text-blue-600 hover:underline">'+e+'</a>').join(''):'<span class="text-xs text-gray-300">—</span>')+'</td>'
                 +'<td class="py-3 px-4 text-center text-sm">'+s.count+'</td>'
                 +'<td class="py-3 px-4 text-center">'+fidDot(s.fiducial)+'</td>'
                 +'<td class="py-3 px-4 text-center text-sm font-semibold" style="color:#ED621B">'+Math.round(s.price)+'€'+n+'</td>'
                 +'<td class="py-3 px-4 text-center text-sm text-gray-500">'+s.platform+'</td>'
                 +'<td class="py-3 px-4 text-center text-sm text-gray-500">'+Math.round(s.dr)+'</td>'
-                +'<td class="py-3 px-4">'+urlsCell(s.urls)+'</td>'
-                +'<td class="py-3 px-4 text-sm">'+(contactData[s.domain]?contactData[s.domain].map(e=>'<a href="mailto:'+e+'" class="block text-xs text-blue-600 hover:underline">'+e+'</a>').join(''):'<span class="text-xs text-gray-300">—</span>')+'</td></tr>';
+                +'<td class="py-3 px-4">'+urlsCell(s.urls)+'</td></tr>';
         }).join('');
     }
     function toggleSelect(site,domain,price,prefix) {
