@@ -222,15 +222,18 @@
     function switchSite(s) { document.querySelectorAll('.site-tab').forEach(t=>t.classList.toggle('active',t.dataset.site===s)); document.querySelectorAll('.site-content').forEach(c=>c.classList.toggle('active',c.id==='site-'+s)); }
     const ss={};
     document.querySelectorAll('th.sortable').forEach(th=>{ th.addEventListener('click',()=>{ const k=th.dataset.sort,t=th.dataset.table,sk=t+'-'+k; ss[sk]=(!ss[sk]||ss[sk]==='desc')?'asc':'desc'; th.closest('tr').querySelectorAll('th.sortable').forEach(h=>h.classList.remove('asc','desc')); th.classList.add(ss[sk]); const dir=ss[sk]==='asc'?1:-1; const[p,type]=t.split('-'); const site=p==='fid'?'fiducial':'veoprint'; siteData[site][type].sort((a,b)=>(a[k]-b[k])*dir); if(type==='achat')renderAchat(p,siteData[site].achat); else renderSimple(p+'-'+type+'-body',siteData[site][type]); }); });
-    // Default sort: price descending
-    ['fid','vp'].forEach(p=>{
-        const site=p==='fid'?'fiducial':'veoprint';
+    // Sort achat by price desc then render
+    ['fiducial','veoprint'].forEach(site=>{
         siteData[site].achat.sort((a,b)=>b.price-a.price);
-        const th=document.querySelector('th.sortable[data-sort="price"][data-table="'+p+'-achat"]');
-        if(th) th.classList.add('desc');
-        ss[p+'-achat-price']='desc';
     });
     renderSite('fid'); renderSite('vp');
+    // Mark price column as desc
+    document.querySelectorAll('th.sortable[data-sort="price"]').forEach(th=>{
+        if(th.dataset.table.endsWith('-achat')){
+            th.classList.add('desc');
+            ss[th.dataset.table+'-price']='desc';
+        }
+    });
     </script>
 </body>
 </html>
